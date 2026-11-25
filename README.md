@@ -87,26 +87,26 @@ The following metrics were calculated:
 - F1 Score
 - Matthews Correlation Coefficient (MCC)
 
+
 ### 7. Model Comparison
 
-ML Model	           ||  Accuracy ||	   AUC    ||	Precision ||	Recall    ||	F1 Score ||	MCC
-======================================================================================================
-Logistic Regression ||	0.901250	|| 0.905574	 ||  0.644483   ||	0.347826  ||	0.451811	|| 0.426058
-------------------------------------------------------------------------------------------------------
-Decision Tree	     || 0.874599	|| 0.701457  ||  0.464880	 ||   0.475425	 ||   0.470093	|| 0.399021
-------------------------------------------------------------------------------------------------------
-KNN	              || 0.896163	|| 0.827721	 ||  0.599002	 ||   0.340265	 ||   0.433996	|| 0.400128
-------------------------------------------------------------------------------------------------------
-Naive Bayes	        || 0.854805	|| 0.810095	 ||  0.405904	 ||   0.519849	 ||   0.455864	|| 0.377358
-------------------------------------------------------------------------------------------------------
-Random Forest	     || 0.904456	|| 0.926286	 ||  0.650621	 ||   0.396030  ||   0.492362	|| 0.459724
-------------------------------------------------------------------------------------------------------
+| ML Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
+|:---|---:|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.901250 | 0.905574 | 0.644483 | 0.347826 | 0.451811 | 0.426058 |
+| Decision Tree | 0.874599 | 0.701457 | 0.464880 | 0.475425 | 0.470093 | 0.399021 |
+| KNN | 0.896163 | 0.827721 | 0.599002 | 0.340265 | 0.433996 | 0.400128 |
+| Naive Bayes | 0.854805 | 0.810095 | 0.405904 | 0.519849 | 0.455864 | 0.377358 |
+| Random Forest | 0.904456 | 0.926286 | 0.650621 | 0.396030 | 0.492362 | 0.459724 |
+
 ### 8. Graphical Representation
 
-The following visualizations were generated:
+#### Target Class Distribution
 
-- Target Class Distribution
-- Classification Model Performance Comparison
+![Class Distribution](results/class_distribution.png)
+
+#### Model Performance Comparison
+
+![Model Comparison](results/model_comparison.png)
 
 ### 9. Model Performance Observations
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -138,9 +138,8 @@ F1 Score   --->  0.492362
 
 MCC        --->   0.459724
 
-Name: 4, dtype: object
 
-"The overall best-performing model was Random Forest, which achieved the highest F1 score of 0.492. It demonstrated a comparatively effective balance between precision and recall. The model was selected based on its performance on the test dataset. MCC and AUC were also considered to assess classification quality and class discrimination."
+The overall best-performing model was Random Forest, which achieved the highest F1 score of 0.492. It demonstrated a comparatively effective balance between precision and recall. The model was selected based on its performance on the test dataset. MCC and AUC were also considered to assess classification quality and class discrimination.
 
 ### 11. Execution Instructions
 
@@ -158,6 +157,8 @@ in the project directory.
 Step 4: Execute the Python script.
 
 2026CT05085_MLAssignment2.ipynb
+
+Execute all cells sequentially.
 
 Step 5: Check the generated comparison table,
 graphs, saved models and test_data.csv.
