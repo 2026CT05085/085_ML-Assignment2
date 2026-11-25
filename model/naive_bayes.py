@@ -1,5 +1,5 @@
 from sklearn.naive_bayes import GaussianNB
 
 def create_model():
-  model = GaussioanNB()
+  model = GaussianNB()
   return model
