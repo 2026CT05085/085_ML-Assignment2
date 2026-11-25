@@ -2,6 +2,11 @@
 # Machine Learning Assignment 2
 ## Bank Marketing Classification
 
+-----------------------------------
+Name: PRANAYJIT MAHATA 
+ID: 2026CT05085
+-----------------------------------
+
 ### 1. Problem Statement
 
 The objective of this project is to implement and
