@@ -88,7 +88,7 @@ The following metrics were calculated:
 - Matthews Correlation Coefficient (MCC)
 
 ### 7. Model Comparison
-======================================================================================================
+
 ML Model	           ||  Accuracy ||	   AUC    ||	Precision ||	Recall    ||	F1 Score ||	MCC
 ======================================================================================================
 Logistic Regression ||	0.901250	|| 0.905574	 ||  0.644483   ||	0.347826  ||	0.451811	|| 0.426058
