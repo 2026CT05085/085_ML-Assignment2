@@ -41,8 +41,7 @@ features.
 
 ### 3. GitHub Repository Link
 
-Repository:
-[INSERT YOUR GITHUB REPOSITORY LINK]
+Repository: https://github.com/2026CT05085/085_ML-Assignment2
 
 ### 4. Data Preprocessing
 
@@ -112,7 +111,7 @@ JUSTIFICATION BASED ON ACTUAL RESULTS]
 
 Step 1: Clone the repository.
 
-git clone [YOUR_REPOSITORY_URL]
+git clone https://github.com/2026CT05085/085_ML-Assignment2
 
 Step 2: Install dependencies.
 
