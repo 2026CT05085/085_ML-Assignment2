@@ -39,6 +39,12 @@ The dataset contains 45,211 observations and
 It contains both numerical and categorical
 features.
 
+Class DistributionL
+ - No: 39,922 (approximately 88.3%)
+ - Yes: 5,289 (approximately 11.7%)
+
+ The Dataset is imbalanced, with significantly more customers belonging to the 'No' Class.
+ 
 ### 3. GitHub Repository Link
 
 Repository: https://github.com/2026CT05085/085_ML-Assignment2
