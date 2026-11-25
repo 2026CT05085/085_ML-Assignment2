@@ -115,17 +115,16 @@ The following metrics were calculated:
 ![Model Comparison](results/model_comparison.png)
 
 ### 9. Model Performance Observations
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Logistic Regression:	Provides a baseline classification approach. It achieves an F1 score of 0.452 and an AUC of 0.906, indicating its ability to distinguish between the two classes.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Decision Tree:	Captures nonlinear relationships between features. Its performance is reflected by an accuracy of 0.875 and an MCC of 0.399.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 KNN:	Classifies observations based on their nearest neighbours. Its performance depends on feature scaling and the selected number of neighbours.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Naive Bayes:	Uses probability-based classification and assumes conditional independence between features. Its performance is reflected in its precision and recall scores.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Random Forest:	Combines multiple decision trees to improve prediction stability. Its F1 score of 0.492 and AUC of 0.926 indicate its classification performance.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 10. Overall Winner
 
 OVERALL WINNER BASED ON F1 SCORE
