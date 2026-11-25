@@ -89,7 +89,13 @@ The following metrics were calculated:
 
 ### 7. Model Comparison
 
-[INSERT YOUR ACTUAL MODEL COMPARISON TABLE]
+MODEL COMPARISON
+           ML Model  Accuracy      AUC  Precision   Recall  F1 Score      MCC
+Logistic Regression  0.901250 0.905574   0.644483 0.347826  0.451811 0.426058
+      Decision Tree  0.874599 0.701457   0.464880 0.475425  0.470093 0.399021
+                KNN  0.896163 0.827721   0.599002 0.340265  0.433996 0.400128
+        Naive Bayes  0.854805 0.810095   0.405904 0.519849  0.455864 0.377358
+      Random Forest  0.904456 0.926286   0.650621 0.396030  0.492362 0.459724
 
 ### 8. Graphical Representation
 
@@ -100,12 +106,25 @@ The following visualizations were generated:
 
 ### 9. Model Performance Observations
 
-[INSERT YOUR ACTUAL MODEL OBSERVATIONS]
+Logistic Regression:	Provides a baseline classification approach. It achieves an F1 score of 0.452 and an AUC of 0.906, indicating its ability to distinguish between the two classes.
+Decision Tree:	Captures nonlinear relationships between features. Its performance is reflected by an accuracy of 0.875 and an MCC of 0.399.
+KNN:	Classifies observations based on their nearest neighbours. Its performance depends on feature scaling and the selected number of neighbours.
+Naive Bayes:	Uses probability-based classification and assumes conditional independence between features. Its performance is reflected in its precision and recall scores.
+Random Forest:	Combines multiple decision trees to improve prediction stability. Its F1 score of 0.492 and AUC of 0.926 indicate its classification performance.
 
 ### 10. Overall Winner
 
-[INSERT THE BEST-PERFORMING MODEL AND
-JUSTIFICATION BASED ON ACTUAL RESULTS]
+OVERALL WINNER BASED ON F1 SCORE
+ML Model     Random Forest
+Accuracy          0.904456
+AUC               0.926286
+Precision         0.650621
+Recall             0.39603
+F1 Score          0.492362
+MCC               0.459724
+Name: 4, dtype: object
+
+"The overall best-performing model was Random Forest, which achieved the highest F1 score of 0.492. It demonstrated a comparatively effective balance between precision and recall. The model was selected based on its performance on the test dataset. MCC and AUC were also considered to assess classification quality and class discrimination."
 
 ### 11. Execution Instructions
 
@@ -122,7 +141,7 @@ in the project directory.
 
 Step 4: Execute the Python script.
 
-python main.py
+main.py
 
 Step 5: Check the generated comparison table,
 graphs, saved models and test_data.csv.
